@@ -1,4 +1,4 @@
-# template-project-node
+# [template-project-node][0]
 
 Fork me!
 
@@ -19,6 +19,7 @@ Fork me!
 
 ![Test Dependencies][8]
 
+[0]: https://gitlab.com/bagrounds/template-project-node
 [1]: https://gitlab.com/bagrounds/template-project-node/badges/master/build.svg
 [2]: https://gitlab.com/bagrounds/template-project-node/commits/master
 [3]: https://gitlab.com/bagrounds/template-project-node/badges/master/coverage.svg
