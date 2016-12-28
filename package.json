@@ -6,8 +6,10 @@
   "scripts": {
     "pretest": "npm run lint",
     "test": "tap -Rtap --coverage-report=text-summary ./test/index.js",
-    "dependencies": "madge . --image dependencies.svg -x 'test|coverage|docs'",
-    "dependencies-test": "madge . --image dependencies-test.svg -x 'coverage|docs'",
+    "predependencies": "mkdir -p img",
+    "dependencies": "madge . --image img/dependencies.svg -x 'test|coverage|docs'",
+    "predependencies-test": "mkdir -p img",
+    "dependencies-test": "madge . --image img/dependencies-test.svg -x 'coverage|docs'",
     "coverage": "tap --coverage-report=lcov ./test/index.js",
     "pages-index": "showdown makehtml -i README.md -o public/index.html",
     "pages": "./script/pages.sh",

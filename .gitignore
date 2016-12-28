@@ -1,8 +1,5 @@
 node_modules
 
-# svg image files
-*.svg
-
 # vim temp files
 *.swp
 
