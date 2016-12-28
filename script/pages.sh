@@ -14,6 +14,16 @@ npm run document
 
 mv docs public/
 
+mkdir public/img
+
+npm run dependencies
+
+mv dependencies.svg public/img/
+
+npm run dependencies-test
+
+mv dependencies-test.svg public/img/
+
 npm run pages-index
 
 exit 0
