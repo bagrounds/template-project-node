@@ -6,6 +6,8 @@
   "scripts": {
     "pretest": "npm run lint",
     "test": "tap -Rtap --coverage-report=text-summary ./test/index.js",
+    "dependencies": "madge . --image dependencies.svg -x 'test|coverage|docs'",
+    "dependencies-test": "madge . --image dependencies-test.svg -x 'coverage|docs'",
     "coverage": "tap --coverage-report=lcov ./test/index.js",
     "pages-index": "showdown makehtml -i README.md -o public/index.html",
     "pages": "./script/pages.sh",
@@ -28,6 +30,7 @@
     "fun-test": "^0.8.2",
     "fun-test-runner": "^0.3.0",
     "jsdoc": "^3.4.3",
+    "madge": "^1.4.3",
     "showdown": "^1.5.4",
     "tap": "^8.0.1"
   }
