@@ -19,6 +19,8 @@ mkdir public/img
 cp img/dependencies.svg public/img/
 cp img/dependencies-test.svg public/img/
 
+npm run readme
+
 npm run pages-index
 
 exit 0
