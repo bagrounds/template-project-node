@@ -16,13 +16,8 @@ mv docs public/
 
 mkdir public/img
 
-npm run dependencies
-
-mv dependencies.svg public/img/
-
-npm run dependencies-test
-
-mv dependencies-test.svg public/img/
+cp img/dependencies.svg public/img/
+cp img/dependencies-test.svg public/img/
 
 npm run pages-index
 
