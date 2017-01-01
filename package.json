@@ -30,7 +30,7 @@
   "devDependencies": {
     "eslint": "^3.12.2",
     "fun-assert": "^0.5.0",
-    "fun-test": "^0.8.2",
+    "fun-test": "^0.9.1",
     "fun-test-runner": "^0.3.0",
     "jsdoc": "^3.4.3",
     "madge": "^1.4.3",

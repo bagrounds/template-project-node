@@ -7,20 +7,10 @@
 
   /* exports */
   module.exports = [
-    testStub()
-  ]
-
-  function testStub () {
-    var test = funTest({
-      verifier: function verifier (error, result) {
-        funAssert.falsey(error)
-      },
+    {
+      error: funAssert.falsey,
       sync: true
-    })
-
-    test.description = 'Should pass'
-
-    return test
-  }
+    }
+  ].map(funTest)
 })()
 
